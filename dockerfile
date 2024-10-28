@@ -1,5 +1,5 @@
 # dockerfile controls how the server will create the virtual machine
-FROM ubuntu:22.04
+FROM ubuntu:22.00
 
 RUN apt-get update && apt-get install -y \
   python3.10 \
